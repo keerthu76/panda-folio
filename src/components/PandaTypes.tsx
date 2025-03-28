@@ -16,7 +16,7 @@ const PandaTypes = () => {
     {
       name: "Red Panda",
       scientificName: "Ailurus fulgens",
-      imageUrl: "https://images.unsplash.com/photo-1519066629447-267fffa62d4b?q=80&w=2034&auto=format&fit=crop",
+      imageUrl: "https://images.unsplash.com/photo-1591198936750-16d8e15edb9e?q=80&w=2070&auto=format&fit=crop",
       habitat: "Temperate Forest",
       population: "Less than 10,000 in the wild",
       conservation: "Endangered",
@@ -26,7 +26,7 @@ const PandaTypes = () => {
     {
       name: "Qinling Panda",
       scientificName: "Ailuropoda melanoleuca qinlingensis",
-      imageUrl: "https://www.ngenespanol.com/wp-content/uploads/2022/12/panda-de-qinling-la-subespecie-de-oso-cafe-y-blanco-en-peligro-de-extincion-770x541.jpg",
+      imageUrl: "https://images.panda.org/assets/images/pages/welcome/qinling-820x360.jpg",
       habitat: "Mountain Forest",
       population: "Around 300 in the wild",
       conservation: "Endangered",
@@ -36,7 +36,7 @@ const PandaTypes = () => {
     {
       name: "Tibetan Blue Bear",
       scientificName: "Ursus arctos pruinosus",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Blue_Bear_1.jpg/1200px-Blue_Bear_1.jpg",
+      imageUrl: "https://asianewsday.com/wp-content/uploads/2021/04/Tibetan-blue-bear.jpg",
       habitat: "Alpine Meadows",
       population: "Unknown, very rare",
       conservation: "Critically Endangered",
