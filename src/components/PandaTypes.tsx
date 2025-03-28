@@ -12,36 +12,6 @@ const PandaTypes = () => {
       conservation: "Vulnerable",
       region: "Southwest China",
       description: "The giant panda, with its distinctive black and white coat, is adored by the world and considered a national treasure in China. They primarily eat bamboo and must consume 26-84 pounds of it daily. Giant pandas have a sixth 'thumb' (actually an extension of the wrist bone) which helps them grip bamboo.",
-    },
-    {
-      name: "Red Panda",
-      scientificName: "Ailurus fulgens",
-      imageUrl: "https://images.unsplash.com/photo-1591198936750-16d8e15edb9e?q=80&w=2070&auto=format&fit=crop",
-      habitat: "Temperate Forest",
-      population: "Less than 10,000 in the wild",
-      conservation: "Endangered",
-      region: "Eastern Himalayas",
-      description: "The red panda is slightly larger than a domestic cat with a long, bushy tail. Despite its name and some shared characteristics, it's not closely related to the giant panda. Red pandas are excellent climbers and spend most of their time in trees. Their reddish-brown fur provides camouflage with the red moss and white lichens that cover the trees of their habitat.",
-    },
-    {
-      name: "Qinling Panda",
-      scientificName: "Ailuropoda melanoleuca qinlingensis",
-      imageUrl: "https://images.panda.org/assets/images/pages/welcome/qinling-820x360.jpg",
-      habitat: "Mountain Forest",
-      population: "Around 300 in the wild",
-      conservation: "Endangered",
-      region: "Qinling Mountains, China",
-      description: "The Qinling panda is a subspecies of the giant panda that has a dark brown and light brown coat instead of the typical black and white. They are found only in the Qinling Mountains of China's Shaanxi Province. They have smaller skulls than other giant pandas and tend to eat more foods beyond bamboo compared to their black and white relatives.",
-    },
-    {
-      name: "Tibetan Blue Bear",
-      scientificName: "Ursus arctos pruinosus",
-      imageUrl: "https://asianewsday.com/wp-content/uploads/2021/04/Tibetan-blue-bear.jpg",
-      habitat: "Alpine Meadows",
-      population: "Unknown, very rare",
-      conservation: "Critically Endangered",
-      region: "Tibetan Plateau",
-      description: "Sometimes called the Horse Bear or Blue Bear, this rare subspecies of brown bear has bluish-black fur with white tips. They are one of the rarest bear subspecies in the world, and very little is known about them. They are sometimes thought to be the inspiration for the Yeti legend. Unlike giant pandas, they are omnivores that eat a variety of plants and animals.",
     }
   ];
 
@@ -56,7 +26,7 @@ const PandaTypes = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-md mx-auto">
           {pandas.map((panda) => (
             <PandaCard key={panda.name} {...panda} />
           ))}
